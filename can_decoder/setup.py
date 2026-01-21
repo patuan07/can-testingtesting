@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'can_test = can_decoder.can_decoder:main'
         ],
     },
 )

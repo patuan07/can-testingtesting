@@ -4,7 +4,7 @@ import struct
 import rclpy
 from rclpy.node import Node
 
-from can_receiver.msg import ImuPressure
+from can_decoder.msg import ImuPressure
 
 
 CAN_IFACE = "can0"
